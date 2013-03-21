@@ -14,7 +14,7 @@ our @EXPORT_OK = qw(detect_web);
 sub detect_web {
     my %res;
 
-    if ($ENV{GATEWAY_INTERFACE} =~ m!^CGI/!) {
+    if (($ENV{GATEWAY_INTERFACE} // "") =~ m!^CGI/!) {
         $res{cgi} = 1;
     }
     if ($ENV{MOD_PERL}) {
