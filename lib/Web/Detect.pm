@@ -52,6 +52,13 @@ detected running under mod_perl), C<plack> (bool, true if detected running under
 Plack), C<cgi> (bool, true if detected running under CGI).
 
 
+=head1 FAQ
+
+=head2 What is the use of this module?
+
+Usually I do it to decide whether to output HTML or plaintext. Running under
+some web environment usually prefers HTML output.
+
 =head1 TODO
 
 
