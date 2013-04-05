@@ -35,7 +35,7 @@ sub detect_web {
 =head1 SYNOPSIS
 
  use Web::Detect qw(detect_web);
- say "Running under terminal" if detect_web();
+ say "Running under web" if detect_web();
 
 
 =head1 DESCRIPTION
