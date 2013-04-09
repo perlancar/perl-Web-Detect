@@ -1,6 +1,6 @@
 Revision history for Web-Detect
 
-0.03    2013-04-09 (SHARYANTO) (not yet released)
+0.03    2013-04-09 (SHARYANTO)
 
         - Make the module usable on pre-5.10 perl. (DMUEY)
 
