@@ -81,7 +81,7 @@ sub detect_web {
         return \%res if $first;
     }
 
-    # still nothing? yikes …
+    # still nothing? yikes ...
     for my $k ( keys %ENV ) {
         if ( $k =~ m/^(?:HTTP|SERVER|REQUEST)_/ ) {
             $res{'general'} += 2;
@@ -89,8 +89,9 @@ sub detect_web {
         }
     }
 
-    # the way scripts are run in some web servers they are still technically “interactive”,
-    # so interactivity is only reliable for this if it is false (IO::Interactive::Tiny)
+    # the way scripts are run in some web servers they are still technically
+    # "interactive", so interactivity is only reliable for this if it is false
+    # (IO::Interactive::Tiny)
     #
     # ditto +/- for term detection (Term::Detect)
 
@@ -112,12 +113,6 @@ sub detect_web_fast {
 =head1 SYNOPSIS
 
     use Web::Detect qw(detect_web detect_web_fast);
-    say "Running under web" if detect_web();
-    say "Running under web" if detect_web_fast();
-
-A more typical example:
-
-    use Web::Detect ();
     use IO::Interactive::Tiny ();
 
     if (Web::Detect::detect_web_fast()) {
@@ -133,11 +128,13 @@ A more typical example:
         }
     }
 
+
 =head1 DESCRIPTION
 
 Knowing if you are under a web environment or not is very handy.
 
 For example, often you need to decide whether to output HTML or plaintext.
+
 
 =head1 FUNCTIONS
 
@@ -149,7 +146,8 @@ Return false if not detected running under any web environment.
 
 Return a hash otherwise.
 
-These keys exists if it is detected that we are running under the given environment and the value is suitable as a boolean (always true).
+These keys exists if it is detected that we are running under the given
+environment and the value is suitable as a boolean (always true).
 
 =over 4
 
@@ -179,7 +177,8 @@ General CGI
 
 =item C<general>
 
-Value can be 1 if it was detected during the first general check, 2 if it was detected during the second general check, and 3 if it was detected under both.
+Value can be 1 if it was detected during the first general check, 2 if it was
+detected during the second general check, and 3 if it was detected under both.
 
 =back
 
@@ -187,7 +186,9 @@ Additionally, C<psgi> is also true if we know its a PSGI environment.
 
 =head2 detect_web_fast()
 
-Same as detect_web() but return HASHREF upon first successful check instead of trying all heuristics.
+Same as detect_web() but return HASHREF upon first successful check instead of
+trying all heuristics.
+
 
 =head1 TODO
 

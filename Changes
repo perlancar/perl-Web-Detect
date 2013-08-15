@@ -1,20 +1,20 @@
 Revision history for Web-Detect
 
-0.04    2013-08-15
+0.04    2013-08-15 (SHARYANTO) (not yet released)
 
-        - Additional heuristics for : Pangea, cPanel, Dancer, Mojo, Catalyst, FCGI, IIS, and general (DMUEY)
+        - Add heuristics for: Pangea, cPanel, Dancer, Mojo, Catalyst, FCGI, IIS,
+          and general. (DMUEY)
 
-        - explicit return of hashref (DMUEY)
+        - Use explicit return of hashref. (DMUEY)
 
-        - comment for MOD_PERL (DMUEY)
+        - Add comment for MOD_PERL. (DMUEY)
 
-        - added =encoding utf-8 to POD for good measure (DMUEY)
+        - Add detect_web_fast() to speed things up when we really only want a
+          boolean. (DMUEY)
 
-        - added detect_web_fast() to speed things up when we really only want a boolean (DMUEY)
+        - Remove unused POD and fill in DESCRIPTION. (DMUEY)
 
-        - remove unused POD and fill in DESCRIPTION (DMUEY)
-
-        - a few more tests (DMUEY)
+        - Add a few more tests. (DMUEY)
 
 
 0.03    2013-04-09 (SHARYANTO)
