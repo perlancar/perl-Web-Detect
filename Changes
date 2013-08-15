@@ -1,6 +1,6 @@
 Revision history for Web-Detect
 
-0.04    2013-08-15 (SHARYANTO) (not yet released)
+0.04    2013-08-15 (SHARYANTO)
 
         - Add heuristics for: Pangea, cPanel, Dancer, Mojo, Catalyst, FCGI, IIS,
           and general. (DMUEY)
