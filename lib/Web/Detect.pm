@@ -108,8 +108,6 @@ sub detect_web_fast {
 
 #ABSTRACT: Detect if program is running under some web environment
 
-=encoding utf-8
-
 =head1 SYNOPSIS
 
     use Web::Detect qw(detect_web detect_web_fast);
