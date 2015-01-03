@@ -1,5 +1,12 @@
 Revision history for Web-Detect
 
+0.05    2015-01-03 (PERLANCAR)
+
+	- No functional changes.
+
+	- Rebuild (Generate TODO.md).
+
+
 0.04    2013-08-15 (SHARYANTO)
 
         - Add heuristics for: Pangea, cPanel, Dancer, Mojo, Catalyst, FCGI, IIS,
