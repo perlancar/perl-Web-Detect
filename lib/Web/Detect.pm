@@ -1,9 +1,10 @@
 package Web::Detect;
 
+# DATE
+# VERSION
+
 use strict;
 use warnings;
-
-# VERSION
 
 sub import {
     if ( @_ > 1 ) {
@@ -188,12 +189,3 @@ Same as detect_web() but return HASHREF upon first successful check instead of
 trying all heuristics.
 
 
-=head1 TODO
-
-Make heuristics even better!
-
-More links/description to each HASHREF key.
-
-Never enough tests.
-
-=cut
