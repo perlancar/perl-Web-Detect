@@ -1,42 +1,42 @@
-0.05    2015-01-03 (PERLANCAR)
+0.05    2015-01-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Rebuild (Generate TODO.md).
 
 
-0.04    2013-08-15 (SHARYANTO)
+0.04    2013-08-15  Released-By: SHARYANTO
 
         - Add heuristics for: Pangea, cPanel, Dancer, Mojo, Catalyst, FCGI, IIS,
-          and general. (DMUEY)
+          and general.  Released-By: DMUEY
 
-        - Use explicit return of hashref. (DMUEY)
+        - Use explicit return of hashref.  Released-By: DMUEY
 
-        - Add comment for MOD_PERL. (DMUEY)
+        - Add comment for MOD_PERL.  Released-By: DMUEY
 
         - Add detect_web_fast() to speed things up when we really only want a
-          boolean. (DMUEY)
+          boolean.  Released-By: DMUEY
 
-        - Remove unused POD and fill in DESCRIPTION. (DMUEY)
+        - Remove unused POD and fill in DESCRIPTION.  Released-By: DMUEY
 
-        - Add a few more tests. (DMUEY)
+        - Add a few more tests.  Released-By: DMUEY
 
 
-0.03    2013-04-09 (SHARYANTO)
+0.03    2013-04-09  Released-By: SHARYANTO
 
-        - Make the module usable on pre-5.10 perl. (DMUEY)
+        - Make the module usable on pre-5.10 perl.  Released-By: DMUEY
 
         - Use 'return' instead of 'return undef' to avoid possible return
-          ambiguity issues. (DMUEY)
+          ambiguity issues.  Released-By: DMUEY
 
 
-0.02    2013-04-05 (SHARYANTO)
+0.02    2013-04-05  Released-By: SHARYANTO
 
         - No functional change. Fix copy paste mistake in Synopsis (spotted by
           Daniel Muey).
 
 
-0.01    2013-03-21 (SHARYANTO)
+0.01    2013-03-21  Released-By: SHARYANTO
 
         - First release.
 
